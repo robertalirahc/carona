@@ -1,0 +1,1 @@
+Publique index.html e config.js na raiz do GitHub Pages. Para dados compartilhados, configure config.js com URL e chave pública anon do Supabase existente. Não execute SQL novo. Sem configuração, dados são salvos neste navegador com a chave grupos_demo_v1. A coluna app do banco antigo recebe 'Outro aplicativo' automaticamente. Faça backup antes de atualizar.
