@@ -1,0 +1,12 @@
+ATENÇÃO: O ZIP ORIGINAL NÃO CONTÉM OS REGISTROS DO BANCO.
+Contém apenas index.html, config.js (sem URL nem chave) e banco.sql.
+O site atualizado mantém os mesmos campos e tabela public.participantes.
+NÃO rode o banco.sql antigo nem substitua o banco.
+
+1. Faça backup das tabelas existentes no Supabase.
+2. Mantenha o projeto Supabase e sua URL/chave pública já configuradas no GitHub.
+3. Para habilitar adesões, revise e execute migracao_segura.sql no SQL Editor.
+4. Substitua SOMENTE index.html no GitHub, mantendo o config.js atual do seu repositório.
+5. Teste em dois navegadores. Se a URL e chave não estiverem no config.js, o site entra em modo demonstração e NÃO mostrará os registros do Supabase.
+
+ALERTA: telefone não é autenticação. A função Entrar neste grupo pode ser usada indevidamente por terceiros. Não publique essa função com dados reais antes de implantar autenticação ou aprovação administrativa.
